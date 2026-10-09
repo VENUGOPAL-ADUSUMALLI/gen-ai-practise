@@ -2,6 +2,7 @@ import os
 from dotenv import load_dotenv
 from openai import OpenAI, max_retries
 from google import genai
+from  pydantic import  BaseModel
 load_dotenv()
 import time
 
